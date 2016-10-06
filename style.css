@@ -152,8 +152,22 @@ input:focus::-webkit-input-placeholder {
 	right: 30px;
 }
 
+.bookmarks {
+	overflow: hidden;
+	text-align: center;
+	margin: 50px auto;
+	flex-wrap: wrap;
+	display: flex;
+	width: 22rem;
+	height: 290px;
+	justify-content: center;
+}
+
 .frame {
+	border-radius: 2px;
+	margin: 8px;
+	display: inline-block;
 	width: 153px;
 	height: 128px;
-	background-image: "frame.png";
+	background-image: url("https://raw.githubusercontent.com/annedo/google-homepage/master/frame.png");
 }
